@@ -1,0 +1,42 @@
+
+.homeSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .hm_left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .hm_right {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hm_txt {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .hm_right p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Add a border and box shadow for a card-like appearance */
+  .homeSec {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add hover effect for better interactivity */
+  .homeSec:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+  }

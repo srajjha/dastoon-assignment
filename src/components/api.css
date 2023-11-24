@@ -1,0 +1,111 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(142, 224, 252);
+  margin: 0;
+}
+
+/* Main container styles */
+.mainDiv {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #5ac18f;
+  border-radius: 8px;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.formSec {
+  margin-bottom: 20px;
+}
+
+.head {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form_elm {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.inputField {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Image box styles */
+.imgBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Individual image styles with hover effect */
+.imageContainer {
+  position: relative;
+  width: 48%; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+.imageContainer:hover img {
+  opacity: 0.8;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Loading indicator styles */
+.loading {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Home section styles */
+.homeSec {
+  text-align: center;
+  padding: 20px;
+  width: 750px;
+  background-color: #a6c1c8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Slider styles */
+.sliderContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  .form_elm {
+    flex: 0 0 100%;
+  }
+}
